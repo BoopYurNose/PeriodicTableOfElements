@@ -13,31 +13,77 @@ div.FirstRow {
     margin: 10px;
 }
 
-h1.RowOne {
+div.SecondRow {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    border: 4px solid;
+    height: 150px;
+    width: 150px;
+    margin-left: 180px;
+    margin-top: -1007.9px;
+}
+
+h1 {
     position: absolute;
     margin: auto;
     margin-top: 30px;
     font-size: 5em;
 }
 
-h2.RowOne {
+h2 {
     position: absolute;
     margin: 100px;
     margin-bottom: auto;
 
 }
 
-h3.RowOne {
+h3 {
     position: absolute;
     margin: 120px;
     margin-bottom: auto;
 
 }
 
+.AlkaliMetal {
+    background-color: red;
+}
+
+.AlkalineEarth {
+    background-color: orange;
+}
+
+.TransitionMetal {
+    background-color: yellow;
+}
+
+.BasicMetal {
+    background-color: green;
+}
+
+.Semimetal {
+    background-color: cyan;
+}
+
 .NonMetal {
     background-color: lightblue;
 }
 
-.AlkaliMetal {
-    background-color: red;
+.Halogen {
+    background-color: pink;
 }
+
+
+.NobleGas {
+    background-color: purple;
+}
+
+.Lanthanide {
+    background-color: rgb(0, 255, 0);
+}
+
+.Anctinide {
+    background-color: rgb(152, 253, 157);
+}
+
+
