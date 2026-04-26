@@ -13,7 +13,7 @@ div.FirstRow {
     margin: 10px;
 }
 
-div.SecondRow {
+div.SecondRow { /*Reminder Figure this out, why you can't get the 2nd row to get positioned in the spot you want it to be positioned in.*/
     display: flex;
     justify-content: center;
     align-items: top;
@@ -21,7 +21,7 @@ div.SecondRow {
     height: 150px;
     width: 150px;
     margin-left: 180px;
-    margin-top: -1007.9px;
+    top: 200;
     margin-bottom: 10px;
 }
 
